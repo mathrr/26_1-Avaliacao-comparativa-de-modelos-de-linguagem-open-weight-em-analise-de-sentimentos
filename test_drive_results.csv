@@ -1,0 +1,6 @@
+id,text,label,annotator,ground_truth,prediction
+36,"Oi querido diário, mais uma vez estou aqui me sentindo uma merda e a culpa é toda minha!",-1,3,negative,negative
+37,É maravilhoso saber que a cada dia estamos nos unindo cada vez mais.,1,3,positive,positive
+38,Na vida precisamos contar com o apoio daquela pessoa que escolhemos para partilhar de todos os nossos momentos.,0,3,neutral,positive
+39,Estou muito feliz e espero que você também.,1,3,positive,positive
+40,"Pra comemorar pedimos pizza, e eu fiz uma carta e deixei do lado dele da cama!",1,3,positive,positive
