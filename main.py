@@ -1,49 +1,77 @@
 import pandas as pd
-import ollama
+import asyncio
+import time
+from ollama import AsyncClient
 
 
-def run_test_drive(file_path, sample_size=5):
-    # 1. Load a small sample
-    # Names based on your file: index, text, label, annotator
-    df = pd.read_csv(file_path, header=None, names=['id', 'text', 'label', 'annotator'], nrows=sample_size)
+async def run_sentiment_analysis():
+    file_path = 'MQD-1465.csv'
+    df_full = pd.read_csv(file_path, header=None, names=['id', 'text', 'label', 'annotator'])
 
-    # 2. Map labels to strings for the LLM
+    val = int(input(f"Dataset com {len(df_full)} frases. Quantas frases? (0 para todas): "))
+    sample_size = len(df_full) if val <= 0 else min(val, len(df_full))
+
+    # Otimização: Converter para lista de dicionários é mais rápido que iterrows()
+    data_to_process = df_full.head(sample_size).to_dict('records')
+
     label_mapping = {1: 'positive', -1: 'negative', 0: 'neutral'}
+    system_prompt = "[Instruction] Act as a sentiment analysis assistant. Task: classify text in triple backticks into [positive, negative, neutral]. [Constraints] Output ONLY the lowercase word. No periods or explanations."
+
+    client = AsyncClient()
+    results = [None] * sample_size
+    times = []
+
+    print(f"\nIniciando processamento ASSÍNCRONO de {sample_size} frases...")
+    start_total = time.time()
+
+    async def process_row(index, row):
+        nonlocal times
+        start_phrase = time.time()
+        try:
+            response = await client.chat(
+                model='mistral-nemo',
+                messages=[
+                    {'role': 'system', 'content': system_prompt},
+                    {'role': 'user', 'content': f"'''{row['text']}'''"},
+                ],
+                options={
+                    'temperature': 0.0,
+                    'top_p': 1.0,
+                    'num_predict': 5  # Otimização de tempo: limita a geração
+                }
+            )
+            results[index] = response['message']['content'].strip()
+        except Exception as e:
+            results[index] = f"ERROR: {str(e)}"
+
+        duration = time.time() - start_phrase
+        times.append(duration)
+
+    # Gerencia o progresso com semáforo para não sobrecarregar a VRAM da GTX 1060
+    # 10 tarefas simultâneas é um bom equilíbrio para 6GB de VRAM
+    sem = asyncio.Semaphore(10)
+
+    async def safe_process(index, row):
+        async with sem:
+            await process_row(index, row)
+            print(f"Frase {index + 1} processada com sucesso.")
+
+    # Cria todas as tarefas e executa
+    tasks = [safe_process(i, row) for i, row in enumerate(data_to_process)]
+    await asyncio.gather(*tasks)
+
+    end_total = time.time()
+    total_duration = end_total - start_total
+
+    # Finalização
+    df = pd.DataFrame(data_to_process)
     df['ground_truth'] = df['label'].map(label_mapping)
-
-    results = []
-
-    print(f"Starting test drive with {sample_size} rows...")
-
-    # 3. Inference Loop
-    for index, row in df.iterrows():
-        print(f"Processing row {index + 1}/{sample_size}...")
-
-        response = ollama.chat(model='llama3', messages=[
-            {
-                'role': 'system',
-                'content': 'Classify the sentiment of the text as: positive, negative or neutral. Output only the label.'
-            },
-            {
-                'role': 'user',
-                'content': row['text'],
-            },
-        ])
-
-        prediction = response['message']['content'].strip().lower()
-        results.append(prediction)
-
     df['prediction'] = results
 
-    # 4. Quick Evaluation
-    print("\n--- Preliminary Results ---")
-    print(df[['text', 'ground_truth', 'prediction']])
-
-    # Save to verify
-    df.to_csv("test_drive_results.csv", index=False)
-    print("\nFile 'test_drive_results.csv' generated.")
+    print("\n" + "=" * 30)
+    print(f"Tempo Total: {total_duration:.2f}s | Média: {total_duration / sample_size:.2f}s/frase")
+    df.to_csv(f"results_optimized_{sample_size}.csv", index=False)
 
 
 if __name__ == "__main__":
-    # Ensure Ollama is running before executing this
-    run_test_drive('MQD-1465.csv', sample_size=5)
+    asyncio.run(run_sentiment_analysis())
