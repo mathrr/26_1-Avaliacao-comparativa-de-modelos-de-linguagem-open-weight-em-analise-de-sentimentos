@@ -40,4 +40,4 @@ def translate_dataset(input_file, output_file):
 
 if __name__ == "__main__":
     # Install with: pip install deep-translator tqdm
-    translate_dataset('MQD-1465.csv', 'MQD-1465_english.csv')
+    translate_dataset('MQD-1465.csv', 'MQD-1465_latest_translated.csv')
