@@ -1,0 +1,204 @@
+id,text,label,annotator,ground_truth,prediction
+36,"Oi querido diário, mais uma vez estou aqui me sentindo uma merda e a culpa é toda minha!",-1,3,negative,step 1: identify the language of the text
+37,É maravilhoso saber que a cada dia estamos nos unindo cada vez mais.,1,3,positive,step 1: identify the language of the text
+38,Na vida precisamos contar com o apoio daquela pessoa que escolhemos para partilhar de todos os nossos momentos.,0,3,neutral,positive
+39,Estou muito feliz e espero que você também.,1,3,positive,positive
+40,"Pra comemorar pedimos pizza, e eu fiz uma carta e deixei do lado dele da cama!",1,3,positive,positive
+41,Nós possuímos o ingrediente básico que tudo sustentará e que tão poucos tem o privilegio de ter: o Amor.,1,2,positive,positive
+42,"Um brinde a nossa existência, e ao nosso futuro.",1,3,positive,step 1: read and understand the given text
+43,Hoje acaba uma guerra.,0,2,neutral,step 1: identify the language of the text
+44,"Não acaba uma batalha, a guerra vai continuar, a guerra é destruir as correntes que me separam das minhas aspirações, que me separam dos meus sonhos.",0,2,neutral,step 1: identify the language of the text
+45,"Sou muito alta e magra, não tenho corpo, e sofro por causa disso.",-1,3,negative,step 1: read and understand the text provided
+46,"E o seguinte, eu já tenho 13 anos e eu QUASE não tenho corpo, as meninas da minha sala já estão todas formadas, e eu aqui com as cochas finas.",-1,3,negative,the user is expressing a mix of emotions in this
+47,"Imaginem uma menina de 14 anos alta, e sem peito, bunda, cochas longas e finas, com certeza ficaria uma merda.",-1,3,negative,step 1: identify the language of the text
+48,"Eu ja estou mocinha ja percebo quando os garotos reparam nas meninas de peito e bunda grande, quase ninguém nota ne mim, e e muito chato isso.",-1,3,negative,"the response for this text should be ""negative""."
+49,Quando tudo parece desmoronar dentro de mim eu me sinto em pedaços.,-1,3,negative,step 1: identify the language of the text
+50,"Tudo que eu quero é ficar sozinha, apagar a luz do quarto e esperar o tempo passar, esperando que a dor vá embora.",-1,3,negative,step 1: read and understand the text provided
+51,O tempo sempre ajuda mas as vezes 1 minuto sozinha dentro desse quarto escuro parece tanto tempo a mais.,0,2,neutral,step 1: read and understand the text
+52,"Me sinto fraca pra lutar por tudo o que eu quero, e as pessoas sempre nos decepcionando.",-1,3,negative,step 1: read and understand the text provided
+53,Confiar em si é a melhor solução pra nao se encontrar nessas situações.,0,3,neutral,step 1: read the given text and identify
+54,"Tentar ser forte e acreditar, que tudo vai passar.",0,2,neutral,positive
+55,"Eu amo a forma como você me observa com tanta ternura, como se tudo em mim fosse inédito.",1,3,positive,step 1: read the text and identify any
+56,Eu amo sua sinceridade e inocência.,1,2,positive,step 1: read the given text carefully and
+57,Você me faz bem e eu sinto que sou amada verdadeiramente.,1,3,positive,step 1: identify the language of the text
+58,"Eu já não aguento mais ouvir desaforo, piada, jogando na minha cara coisas que ele fez por mim, e por isso resolvi ser garota de programa.",-1,2,negative,step 1: read the text and identify key
+59,"Escrevi este relato, a mando do pai do meu filho.",0,3,neutral,step 1: identify the language of the text
+60,"Ele insistiu que eu relatasse exatamente nosso romance, desde o início, sem omitir nada, e depois publicasse na internet.",0,3,neutral,step 1: identify the sentiment keywords and phrases
+61,"Sou casada, feliz no casamento, tenho um bom emprego onde conheci uma pessoa.",1,3,positive,step 1: read and understand the text provided
+62,"Sabe aquela pessoa que você se identifica logo de cara, almoça junto todos os dias e acaba ficando amigo?",0,2,neutral,positive:
+63,"Como almoçamos quase todos os dias juntos, acabamos nos conhecendo bem, sabia de suas namoradas e ele um pouco de mim.",0,2,neutral,"the response for this text should be ""positive""."
+64,"Comecei a pegar carona com ele ao final do expediente, fato que achei melhor esconder do meu marido, ele acha que eu volto de ônibus, mas ônibus são tão lotados e demorados.",-1,2,negative,the sample text provided contains a mix of positive and
+65,"Um dia, o trânsito estava horrível parado por enchentes, e ele sugeriu paramos em uma ruazinha para dar um tempo, por sorte o carro tem vidros escuros dando mais segurança.",0,2,neutral,label: neutral
+66,"Ele conversava virado para mim com a mão no encosto do meu banco e, estranhamente comecei a sentir bem ficar ali com ele.",1,3,positive,step 1: read the given text and identify
+68,"Comecei a sentir uma estranha, excitação interna, não exatamente por ele, mas pela situação.",1,3,positive,positive
+69,"Afinal, para mim, que sempre levei vida de esposa fiel, tudo eram novidade, e novidade sempre atraem as mulheres.",0,2,neutral,step 1: identify the main subject and context
+70,"Ele desceu a mão até meu pescoço, sentia sua respiração.",0,3,neutral,step 1: identify the language of the text
+71,"Arrepiei-me, ele percebeu e veio se aproximando cada vez mais, segurou meu rosto; foi aproximando seu rosto até que encostou seus lábios nos meus.",0,2,neutral,step 1: identify the sentiment words in the
+72,Eu não sabia o que fazer!,0,2,neutral,step 1: read the given text and identify
+73,Fiquei surpresa e paralisada!,0,2,neutral,step 1: identify the language of the text
+74,Senti um choque e um calor pelo corpo todo por essa situação inusitada.,0,2,neutral,step 1: read and understand the given text
+75,"Eu, já com a respiração acelerada.",0,2,neutral,step 1: read the given text and identify
+76,"Acabamos nos beijando mais e mais, meus braços o abraçaram.",1,2,positive,step 1: identify the language of the text
+77,"Confesso que aquilo me dava um prazer quase que desconhecido, era uma delicia sentir nossas línguas se encostando enquanto ele apertava meus seios.",1,3,positive,step 1: read the text and identify any
+78,"Ele insinuou que eu poderia estar grávida, eu disse que isso, nem pensar, pois eu tomava anticoncepcional.",0,2,neutral,step 1: read and understand the text
+79,"Queria tanto que as coisas tivessem sido diferentes, mas infelizmente o senhor mudou o rumo de nossas vidas para sempre.",-1,2,negative,step 1: read and understand the text provided
+80,"Não deixou nada para o meu futuro, você esqueceu de mim como se eu nunca tivesse existido.",-1,3,negative,step 1: read and understand the given text
+81,"Mas tudo bem, agora eu percebi que nunca precisei de você para nada pois até quando eu sentia falta de você e eu chorava.",-1,2,negative,"the response for this text is ""negative""."
+82,Passei a não sentir mais a tua falta passei a não chorar mais por você pois o amor de minha mãe me preenchia e afogava toda a minha dor.,-1,2,negative,neutral
+83,Nunca devemos esquecer de que somos nós os arquiteto do nosso próprio destino cada um tem o seu livre arbítrio de seguir a sua vida como quer.,0,3,neutral,positive
+84,"Espero que seja muito feliz,que tenha uma velhice tranqüila seja sadio para cuidar de seus filhos eles precisam de você.",1,2,positive,step 1: read and understand the text
+85,Não to aguentando mais segurar isso comigo.,-1,3,negative,step 1: identify the language of the text
+86,É muito triste saber que tenho uma irmã que me fez namorar um menino gay simplesmente pra abafar o romance dele com o meu sobrinho de 15 anos.,-1,3,negative,step 1: identify the sentiment words in the
+87,"É mais triste ainda saber que ela me pressionava a perder a virgindade com ele, apoiava meu namoro, deixou eu me envolver até que me apaixonasse fortemente por ele.",-1,3,negative,step 1: identify the sentiment words in the
+88,"To cansada de brigar com a minha mae, dela nunca estar do meu lado.",-1,3,negative,step 1: identify the language of the text
+89,"O pior de tudo , foi q ele terminou comigo, alegando que eu não podia ficar ate as 4 da manha na rua ",-1,3,negative,step 1: read the text and identify key
+90,"Esta noite a lua está tão linda, tão perfeita, uma obra prima de Deus.",1,3,positive,step 1: identify the language of the text
+91,"Sempre gostei de admirar o céu, de olhar as estrelas, entender o mistério que há lá em cima e quando olho a lua, ah lua!",1,3,positive,step 1: read the text and identify key
+92,"Ela me recorda tantas coisas lindas, é como se ela fosse cúmplice dos amantes, dos apaixonados e às vezes fico a observá-la e sinto uma paz muito boa.",1,3,positive,positive. the text describes the speaker feeling peaceful and
+93,Obrigada Deus por fazer tudo isso pra mim.,1,3,positive,step 1: read the given text and identify
+94,Te amo muito meu Pai!,1,3,positive,step 1: identify the language of the input
+95,"O meu namorado não tem estilo nenhum, me ajudem?",-1,2,negative,negative
+96,"Gente eu sempre ando bem arrumada, cheirosa, maquiada do lado do meu namorado, nunca fiz ele passar vergonha em lugar nenhum.",0,2,neutral,step 1: identify the language of the text
+97,O povo até olha e não acredita que somos namorados.,0,3,neutral,step 1: identify the language of the text
+98,"Eu hoje estava vindo trabalhar de tomara que caia todo florido de salto bem alto, um coletinho de renda, maquiada de acordo com a roupa com um brinco de perola caidinho de rayban.",0,3,neutral,positive
+99,"E meu namorado estava de bermuda jeans, uma polo, e um tênis da oakley que o pé esquerdo esta sem cadarço, todo rasgado, sujo.",-1,2,negative,in order to classify the given text as either positive
+100,"É um nojo, ai eu peguei o ônibus da empresa e quando subi ele tiro um braço da blusa sabe e depois ia tirar o resto da camisa.",-1,3,negative,step 1: identify the sentiment keywords in the
+101,"Que vergonha que eu passei no ônibus, ele todo maloqueiro.",-1,3,negative,step 1: identify the language of the text
+102,Eu comprei uma camisa gola V vermelha com zíper pra ele.,0,3,neutral,positive
+103,Hoje é o meu aniversário.,0,2,neutral,step 1: identify the language of the input
+104,Já comecei mal o dia.,-1,3,negative,step 1: identify the language of the input
+105,"Minha mãe não lembrou, poucas pessoas lembraram.",-1,2,negative,step 1: identify the language of the text
+106,"E meu pai, com certeza não vai lembrar.",-1,2,negative,step 1: identify the language of the input
+107,"Sei la, a cada dia que passa eu desejo menos estar aqui.",-1,3,negative,step 1: read and understand the text provided
+108,"Ano passado foi tudo muito ""perfeito"" e esse ano, nenhum pouco.",-1,2,negative,step 1: identify the language of the text
+109,"Quem eu mais esperei que fosse lembrar, não lembrou.",-1,2,negative,negative
+110,Eu só quero que esse dia acabe logo.,-1,3,negative,step 1: read the given text and identify
+111,Eu cheguei da escola ontem normal almocei e eu estava com o fone de ouvido no ultimo volume.,0,3,neutral,step 1: identify the main subject of the
+112,A minha prima de 4 anos estava na sala conversando com minha mãe ai eu simplesmente terminei e fui pra sala.,0,3,neutral,step 1: identify the sentiment words in the
+113,"É tão dificil assim ela me amar, porque ela falo que eu não vou fazer diferença a unica coisa que eu queria era ser amiga da minha mãe mas ela me impede isso.",-1,3,negative,the text provided contains both positive and negative sentiments.
+114,"Acho que não vou passar pro ITB, muito menos pra FIEB.",-1,3,negative,step 1: identify the language of the text
+115,"Na do ITB eu acho que acertei umas 35, de 50.",0,3,neutral,step 1: identify the sentiment keywords in the
+116,"Nunca me arrependi tanto, duvido que eu vou passar com esses acertos, pra passar em Edificações tem que acertar de 40 pra cima.",-1,3,negative,the user is expressing regret and doubting their ability to
+117,Com certeza eu não vou ser uma das 24 pessoas que mais acertaram!,-1,2,negative,step 1: read and understand the given text
+118,Vou morrer de vergonha quando o resultado sair!,-1,3,negative,step 1: read and understand the text provided
+119,"Todo mundo fica falando que eu já passei, mas eles não se tocam que eu escolhi o curso mais concorrido!",0,2,neutral,step 1: read and understand the text
+120,"To muito mal, eu devia ter ouvido meu professor de matemática e escolhi um cursinho qualquer.",-1,3,negative,step 1: read and understand the given text
+121,Na da FIEB tenho menos chances ainda.,-1,3,negative,step 1: identify the language of the text
+122,odo mundo fica falando que eu vou passar mas eu sei que não.,-1,3,negative,step 1: read and understand the given text
+123,"Quarta feira à noite sai o gabarito, aí eu vou saber quantas eu acertei.",0,3,neutral,positive
+124,"E dia 22 à noite sai a lista dos convocados, 28 a segunda lista, e depois, se houver, ainda tem a lista de vagas remanescentes.",0,3,neutral,step 1: identify the main subject of the
+125,Mas eu acho que nem na de remanescentes eu vou estar.,-1,3,negative,neutral
+126,"Era muita gente, tenho certeza que os 24 que entrarem vão ter gabaritado a prova!",0,3,neutral,step 1: read and understand the text
+127,Mas não é por isso se sente necessidade de viver anunciando suas qualidades.,0,2,neutral,step 1: read the given text and identify
+128,"Prefere a discrição, ficar quieto, observando e tomando suas próprias conclusões.",0,3,neutral,step 1: read and understand the given text
+129,Preocupa-se muito pouco com a opinião alheia.,0,3,neutral,step 1: read the given text and identify
+130,Tem uma grande sensualidade e sabe como explora-la muito bem.,1,2,positive,step 1: read and understand the given text
+131,"Tende a ser ciumento e possessivo, o que é um grande defeito.",-1,3,negative,step 1: read and understand the given text
+132,Seria bom tomar cuidado com certas manias.,0,2,neutral,step 1: identify the language of the text
+133,Pensei muito hoje em tudo que voces falaram pra mim.,0,3,neutral,positive
+134,Minha insônia atingiu um nível crítico e finalmente eu resolvi ir para o psiquiatra pra ver o que ele podia fazer.,-1,2,negative,step 1: read and understand the text
+135,Entrei lá decidida que só sairia com algum outro remédio além do antidepressivo.,-1,2,negative,step 1: read and understand the given text
+136," Ele me receitou zolpidem, um hipnótico, pra me ajudar a dormir.",0,3,neutral,step 1: identify the language of the text
+137,"Apesar de ser tarja vermelha, não vou poder usar ele mais do que dois meses, por causa da dependência.",0,2,neutral,step 1: identify the language of the text
+139,"Passei um bom tempo refletindo se iria tomar ou não, como se aquilo fosse um veneno ou algo do tipo.",0,2,neutral,step 1: read the given text and identify
+140,"Eu e meu medo de tomar remédios novos, com medo de me dar alguma reação colateral ou algo do gênero.",-1,3,negative,step 1: read and understand the text provided
+141,"Mas foi tranquilo. Deitei e dormi feito um bebê, das duas vezes que eu tomei.",1,3,positive,step 1: identify the language of the text
+142,"E quando eu acordo, não passo o dia feito lesa.",1,2,positive,positive
+143,Acordo bem mais disposta.,1,3,positive,step 1: identify the language of the input
+144,Amei o remédio até agora.,1,3,positive,step 1: identify the language of the text
+145,Semana passada transei com meu namorado na casa dele.,0,2,neutral,step 1: identify the language of the text
+146,"Ele, como eu previa, não tinha camisinha, e eu me recusei a transar daquele jeito.",-1,2,negative,step 1: identify the sentiment words in the
+147,Aí ele disse que a gente fazia outro dia.,0,3,neutral,step 1: identify the language of the text
+148,Eu insisti e eu mesma fui comprar a camisinha na farmácia.,0,3,neutral,step 1: identify the sentiment keywords in the
+149,"Fiquei meio constrangida, mas valeu a pena.",0,2,neutral,step 1: identify the language of the text
+150,"De vez em quando temos nossas briguinhas, mas eu amo ele.",1,2,positive,step 1: read and understand the text provided
+151,"Sei la, é uma relação estranha.",-1,2,negative,step 1: identify the language of the input
+152,Eu mudo muito meus sentimentos em relação a ele.,0,3,neutral,step 1: identify the language of the input
+153,"Ás vezes parece que eu não sinto nada por ele, quando a gente briga.",-1,2,negative,step 1: read and understand the text provided
+154,Mas tem hora que parece que vou explodir de tanto amor.,1,2,positive,step 1: understand the text and identify key
+155,"E ele percebe isso, como eu fico fria com a menor briguinha.",-1,2,negative,step 1: read and understand the given text
+156,"Quanto aos sintomas do TOC, continuam bem chatinhos.",-1,2,negative,step 1: identify the language of the text
+157,O pensamento ' eu quero me matar' aparece com muita frequência.,-1,2,negative,step 1: read and understand the text provided
+158,"E já até andei me machucando de levinho novamente, apesar de nunca ter parado, a rigor.",-1,3,negative,step 1: identify the language of the text
+159,Grito dezenas de vezes durante o dia.,-1,2,negative,step 1: read the given text and identify
+160,"A compulsão por doces continua, me dá uma aliviada momentânea.",1,2,positive,step 1: identify the language of the text
+161,"Até cheirar cola já pensei em fazer, na verdade foi uma coisa mais simbólica do meu desespero, sabia que não ia adiantar em nada.",-1,2,negative,"the response for this text should be ""negative""."
+162,"E foi daquelas colas de isopor mesmo, e já tava sequinha.",0,2,neutral,step 1: identify the language of the text
+163,"Mas apesar de todas essas coisas, às vezes esqueço de tudo que to passando e me sinto tão bem.",1,2,positive,positive
+164,"O antidepressivo tem sua parcela de contribuição, mas não é só ele.",0,2,neutral,step 1: identify the language of the text
+165,"Não acho minha vida uma desgraça, apesar do TOC, autoestima baixa, ansiedade, insônia, pânico, problemas familiares.",0,2,neutral,step 1: identify the language of the input
+166,"E por falar nisso, segunda que vem começam minhas aulas na faculdade.",0,3,neutral,step 1: identify the language of the text
+167,"As matérias são chatinhas, mas pelo menos a carga horária é menor.",0,3,neutral,step 1: read the given text and identify
+168,"A maioria das aulas são de manhã, ou seja, tenho que acordar cedo.",0,2,neutral,step 1: identify the language of the text
+169,"Por um lado vai ser bom porque não vou ter que escutar minha mãe gritando no trânsito, o que ja ajuda muito.",1,3,positive,step 1: identify the sentiment keywords in the
+170,"Hoje prestes a fazer 30 anos, resolvi por um fim nas minhas gordurinhas e levantar a minha autoestima.",1,2,positive,step 1: read and understand the text
+171,"Tenho a estatura de 1,57 cm e 60 kg.",0,3,neutral,step 1: identify the language of the text
+172,Ja estou no limite para chegar a cima do peso.,0,2,neutral,step 1: read and understand the given text
+173,"Oi Querido Diário, estava com saudades de você, não estava escrevendo muito aqui porque minhas férias estavam sendo o maior tédio e eu não tinha muito o que escrever, mas agora começaram as aulas e eu vou voltar a escrever!",0,3,neutral,response: enthusiastic
+174,Bom meu primeiro dia de aula ja começou com dois professores novos.,0,3,neutral,step 1: identify the language of the text
+175,"No primeiro horário Ricardo, com matemática e geometria , ja no segundo Kairton com gramática, interpretação e redação.",0,3,neutral,step 1: identify the main subject of the
+176,"Na aula do Ricardo nós revisamos algumas coisas do ano passado e ele passou um dever de casa, eu gostei dele, ele é engraçado!",1,3,positive,step 1: read and understand the text.
+177,"Na aula do Kairton revisamos também, porém a parte que eu mais gostei foi quando nós fomos avaliar a música.",1,3,positive,step 1: identify the main subject of the
+178,"Nós fomos avaliar a música que era aquela música da Legião Urbana, Pais e Filhos, nossa super amo essa música.",1,3,positive,step 1: identify the main subject of the
+179, Eu ouvi tudo e fiquei muito orgulhosa de mim mesma!,1,3,positive,step 1: read and understand the given text
+180,"E oba, ele ja decorou meu nome, aquela chata da Aline ficou morrendo de inveja, eu to gostando dos professores novos, e principalmente o Kairton.",1,3,positive,step 1: identify the sentiment keywords and phrases
+181,"Não, agora você tá ótima!",1,3,positive,step 1: identify the language of the input
+182,"Pois bem, eu vi ele, ele me viu, mas não falou comigo.",0,2,neutral,step 1: identify the language of the text
+183,"Não vou falar da tragédia de Santa Maria, pois só em pensar me da vontade de chorar, bom vou terminar agora, depois da escola eu venho contar mais!",-1,3,negative,"the response for this text is ""neutral"" because"
+184,"Parece que sempre sigo o caminho mais complicado, estou cansada de ser tudo tao dramático.",-1,3,negative,step 1: read and understand the text
+185,"Meu mundo, meus dramas.",-1,2,negative,"step 1: read the given text
+i"
+186,"Ver vc sair poderia ter sido mais um, mas nao é isso o que está acontecendo.",0,3,neutral,negative
+187,"Penso em você o tempo inteiro, e meu coração doi ao imaginar o que você está fazendo.",-1,3,negative,step 1: read the given text and identify
+188,Todos os momentos que eu estou perdendo com você.,-1,3,negative,step 1: identify the language of the text
+189,Eu me sinto fraca e sufocada pelo meu próprio coração.,-1,3,negative,step 1: read and understand the given text
+190,"Acho que ele prefere você, e não a minha razão.",-1,2,negative,step 1: read and understand the given text
+191,"Sem você eu me sinto sem asas, incapaz de voar.",-1,3,negative,step 1: identify the language of the text
+192,Uma amiga minha já tinha consciência de que eu gostava do meu amigo.,0,3,neutral,step 1: identify the language of the text
+193,"Hoje, na véspera de feriado, ela estava, por coincidência, no mesmo grupo que ele, e resolveu perguntar se ele gostava de mim, mas ele disse que só como amiga.",0,3,neutral,"the response for this text is ""neutral""."
+194,"Mas aí ela começou a falar que eu gostava dele e por fim, elogiou os olhos verdes.",0,2,neutral,positive
+195,"Esse garoto não é metido, é super gente boa, mas de uns tempos pra cá eu me apaixonei por ele.",1,2,positive,step 1: identify the sentiment keywords in the
+196,"Ele provavelmente vai falar comigo, pelo facebook.",0,2,neutral,step 1: identify the language of the text
+197,Será que ele vai começar a me analisar?,0,3,neutral,step 1: identify the language of the text
+198,"Eu particularmente não vou ligar se ele falar que só me quer como amiga, tá de boa, mas eu só não quero que ele me trate pior.",-1,2,negative,"the response for this text is ""negative""."
+199, Ainda mais que tudo que tá acontecendo ultimamente está me levando pra perto dele.,0,2,neutral,step 1: read and understand the text provided
+200,Gente eu tenho 13 anos e eu nunca beijei em toda a minha VIDA.,0,2,neutral,step 1: identify the language of the text
+201,E o pior de tudo é q eu nuca fui de falar muito com os meninos e também eu não me considero uma pessoa muito bonita.,-1,3,negative,step 1: read and understand the text
+202,"Eu era uma criança muito tímida, me lembro que a turma inteira fazia bagunça e eu ficava ali no canto, sozinho sem conversar com ninguém.",-1,2,negative,step 1: read and understand the text
+203,Sempre foi bem difícil eu me enturmar com as pessoas.,-1,3,negative,step 1: read and understand the given text
+204,A miserável vida do Paulo Anderson.,-1,3,negative,step 1: identify the language of the text
+205,"Quantas tristezas e decepções eu já passei nessa vida não é mesmo, ainda bem que eu escrevo só pra mim mesmo, pois só eu mesmo sei de tudo que eu já passei, nunca quis compartilhar minha merda de vida com ninguém.",-1,3,negative,label: negative;
+206,Minha vida é um sofrimento interno e eterno.,-1,3,negative,step 1: identify the language of the text
+207,"Nunca passei fome e nem tive doença, agradeço a Deus por ter meus dois olhos,",1,3,positive,"positive
+
+in this text, the speaker is"
+208,Me refugiei dentro da umbanda com meus guias e guias dos outros.,0,2,neutral,positive
+209,"Foram tantas dificuldades, tantos mistérios, tantas perguntas sem explicação.",-1,3,negative,step 1: read the given text and identify
+210,Já perdi as contas de quantos modos eu já tentei descobri a verdade.,0,2,neutral,step 1: identify the language of the text
+211,"Terreiros errados, guias errados, falta de educação com as pessoas, responsabilidade, falta de atitude, falta de sorte, falta de sair de casa, falta de correr atrás, punheta excessiva, cartas, tarô, trabalhos de aberturas.",-1,3,negative,step 1: identify the sentiment-related keywords
+212,"Em quantos motivos eu já pensei para ser a razão do meu sofrimento, e até hoje eu não havia encontrado a resposta!",-1,2,negative,step 1: read and understand the text
+213,"Hoje com 21 anos, como que por auxilio lá do auto, começei a ver nessa semana relatos de pessoas que foram curadas atráves da terapia de vidas passadas.",0,2,neutral,unlabeled
+214,"sintomas que eu sempre sofri como timidez, depressão, isolamento, mediunidade mal orientada, brigas com famílias, carência afetiva e vida profissional, tentei buscar alguma forma de uma auto regressão mais não achei.",-1,2,negative,neutral
+215,"Então resolvi procurar no Google alguma clinica que fazia terapia de vidas passadas em Goiânia, até então eu nem sabia que existia isso aqui, só tinha visto pela televisão.",0,3,neutral,sentence: positive
+216,"Encontrei o blog da Crisanne Braga, uma ótima terapeuta holística daqui da cidade, li algumas matéria no blog dela e entrei em contato querendo saber os valores.",0,2,neutral,step 1: read the text and identify key
+217,"Hoje foi minha primeira sessão, a terapeuta me causou uma boa impressão.",1,3,positive,step 1: identify the language of the text
+218,"A gente conversou e logo eu familiarizei com ela, achei que não teria coragem de contar os meus problemas pra uma desconhecida, mais consegui falar sobre tudo com ela.",1,3,positive,step 1: identify the language of the text
+219,"Durante um momento de descontração e risos, eu tive um momento muito estranho, senti um espírito próximo de mim e de repente eu tive uma sensação de que eu já havia estado naquela clínica ali antes.",0,2,neutral,neutral
+220,TODA VEZ QUE MEU CUNHADO VEM EM CASA ELE DÁ UM GEITO DE FICAR SOZINHO COMIGO. ,-1,2,negative,step 1: read and understand the text
+221,"HOJE COMO TÁ CHOVENDO EU FIQUEI DEITADA NA CAMA, POIS ELE VEIO DE MANSINHO E SENTOU AO MEU LADO, ATÉ AI TUDO BEM.",0,3,neutral,step 1: identify the sentiment keywords in the
+222,"SÓ QUE ELE COMECOU A DESVIAR O OLHAR DA TV PRA MIM, EU FINGIA QUE NÃO VIA E CONTINUAVA FOCADA NA TV.",-1,2,negative,step 1: identify the sentiment keywords in the
+223,ELE ENTÃO COMEÇOU A ENFIAR A MÃO POR DEBAIXO DA COBERTA PRA TENTAR ME TOCAR.,-1,2,negative,step 1: identify the sentiment keywords in the
+224,"CLARO QUE NÃO DEIXEI... QUE ÓDIO, SERÁ QUE MINHA IRMÃ NÃO VE QUE ELE NÃO PRESTA.",-1,3,negative,step 1: read and understand the text provided
+225,"AI ME LEVANTEI E FUI LA FORA, POIS NÃO DEMOROU MUITO E ELE FOI ATRÁZ, FICOU ME PERGUNTANDO ATÉ QUE HORAS EU TRABALHAVA.",-1,2,negative,step 1: identify the sentiment words in the
+226,EU DISSE QUE TRABALHAVA ATÉ TARDE.,0,3,neutral,step 1: identify the language of the text
+227,E NÃO É A PRIMEIRA VEZ QUE ELE TENTA ALGO... NÃO QUERO ENTRAR EM DETALHES,-1,2,negative,negative
+228,VOU FICAR TORCENDO PRA ELE FICAR BEM LONGE DE MIM..... ATÉ PORQUE ELE NÃO É NADA BONITO.,-1,3,negative,the user's text contains a mix of uppercase
+229,"Bom, antes de tudo devo deixar expresso aqui que ela quem me mandou o e-mail abaixo, contando detalhe por detalhe de tudo e eu garanto é 100% verdade.",0,2,neutral,sentence: bom
+230,"Chegando à fábrica fiz o processo normal, quando estou chegando a minha sala vejo o telefone tocar e quando olho o nome dele surgi no visor , meu coração dispara, atendo e marcamos para nos ver na saída, fico meio tranquila.",1,3,positive,positive
+231,"No horário do almoço, ele me liga e fala que esta com o maior tesão, nossa meu corpo esquenta, como dispara-se algo em mim no som da voz dele,",1,3,positive,step 1: identify the sentiment keywords in the
+232,Confirmei e fiquei aguardando a hora.,0,3,neutral,positive
+233,"O ônibus interno parou e perguntou se eu iria para Benq, informei que não.",0,3,neutral,step 1: identify the language of the text
+234,"Eles foram, eu entrei na sala, ele estava na frente do computador, quando eu coloquei a bolsa e um sacola que estava, numa mesa próxima a dele, ele beijou com um gosto de quero mais, nos começamos as preliminares ali.",1,3,positive,positive
+235,"Saímos da fabrica, e fomos ao lugar próximo com poucas estrelas, mas viável, chegando no quarto um stand não era muito bonito, mas como já estávamos um com vontade do outro começamos, mas eu pedi, para me limpar, porque eu manuseio peças com óleo, graxa, etc.",0,2,neutral,label: neutral
+236,"Eu me sinto muito suja, então eu entrei molhei o meu corpo, passei a mão no sabonete que estava na minha mesa, porque eu havia comprado para conhecer a mãe dele.",0,2,neutral,step 1: identify the main subject and action
+237,"Estou aqui para compartilhar minha triste vida, mais especificamente minha triste vida como viciado em cocaína.",-1,3,negative,step 1: read and understand the text provided
