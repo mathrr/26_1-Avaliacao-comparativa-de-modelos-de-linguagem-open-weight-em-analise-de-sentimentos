@@ -5,11 +5,11 @@ import os
 from ollama import AsyncClient
 
 # --- CONFIGURAÇÃO HARDCODED ---
-MODEL_NAME = "mistral-nemo"
+MODEL_NAME = "llama3"
 
 
 async def run_sentiment_analysis():
-    file_path = 'MQD-1465.csv'
+    file_path = 'MQD-1465.csv' # MQD-1465_google_trans_labeled_from_erica.csv
     if not os.path.exists(file_path):
         print(f"Erro: Arquivo {file_path} não encontrado.")
         return
@@ -44,7 +44,7 @@ async def run_sentiment_analysis():
         system_prompt = f"Act as a sentiment analysis assistant. Task: Classify the sentiment. {constraints}"
 
     clean_model_name = MODEL_NAME.replace(":", "_").replace("-", "_")
-    output_filename = f"results_{clean_model_name}_{prompt_type}.csv"
+    output_filename = f"results_{clean_model_name}_{prompt_type}.csv" # f"results_google_translated_{clean_model_name}_{prompt_type}.csv"
 
     client = AsyncClient()
     results = [None] * sample_size
