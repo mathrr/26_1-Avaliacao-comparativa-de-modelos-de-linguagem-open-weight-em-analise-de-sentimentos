@@ -1,0 +1,52 @@
+id,text,label,annotator,ground_truth,prediction
+36,"Hi dear diary, once again I'm sitting here feeling like shit and it's all my fault!",-1,3,negative,output: negative
+37,It's wonderful to know that every day we are coming together more and more.,1,3,positive,step 1: read the given text carefully.
+38,In life we ​​need to count on the support of that person we choose to share all our moments.,0,3,neutral,positive
+39,I'm very happy and I hope you are too.,1,3,positive,step 1: read the given text carefully to
+40,"To celebrate we ordered pizza, and I made a letter and left it on his side of the bed!",1,3,positive,step 1: read and understand the text provided
+41,We have the basic ingredient that sustains everything and that so few are privileged to have: Love.,1,2,positive,positive
+42,"A toast to our existence, and to our future.",1,3,positive,step 1: read the given text carefully.
+43,Today a war ends.,0,2,neutral,step 1: read the given text carefully to
+44,"A battle is not over, the war will continue, the war is about destroying the chains that separate me from my aspirations, that separate me from my dreams.",0,2,neutral,"positive
+in this context, ""positive"" refers"
+45,"I am very tall and thin, I have no body, and I suffer because of it.",-1,3,negative,step 1: read the text provided by the
+46,"And the next thing, I'm already 13 years old and I ALMOST don't have a body, the girls in my class have all graduated, and here I am with thin thighs.",-1,3,negative,"the response for this text should be ""negative""."
+47,"Imagine a girl of 14 years tall, and without chest, ass, long and thin thighs, she sure would look like shit.",-1,3,negative,step 1: read the text carefully to understand
+48,"I'm already a young girl, I already notice when boys notice girls with big breasts and big asses, almost nobody notices me, and it's very annoying.",-1,3,negative,step 1: read the text carefully to understand
+49,"When everything seems to fall apart inside me, I feel myself in pieces.",-1,3,negative,step 1: read and understand the given text
+50,"All I want is to be alone, turn off the bedroom light and wait for time to pass, hoping the pain will go away.",-1,3,negative,step 1: read and understand the text
+51,Time always helps but sometimes 1 minute alone in that dark room seems like so much time.,0,2,neutral,answr
+52,"I feel weak to fight for everything I want, and people are always letting us down.",-1,3,negative,output: negative
+53,Trusting yourself is the best solution to not find yourself in these situations.,0,3,neutral,step 1: read and understand the given text
+54,Try to be strong and believe that everything will pass.,0,2,neutral,output: positive
+55,"I love the way you watch me so tenderly, like everything about me is new.",1,3,positive,step 1: read and understand the given text
+56,I love your sincerity and innocence.,1,2,positive,step 1: read the given text carefully to
+57,You make me feel good and I feel that I am truly loved.,1,3,positive,output: positive
+58,"I can no longer stand to hear insults, jokes, throwing things he did for me in my face, and that's why I decided to be a call girl.",-1,2,negative,step 1: read the text carefully and identify
+59,I wrote this account at the behest of my son's father.,0,3,neutral,step 1: read and understand the given text
+60,"He insisted that I relate our romance exactly, from the beginning, omitting nothing, and then publish it on the Internet.",0,3,neutral,negative
+61,"I am married, happily married, I have a good job where I met someone.",1,3,positive,step 1: read and understand the text provided
+62,"You know that person you identify with right away, have lunch with every day and end up becoming friends?",0,2,neutral,positive
+63,"As we had lunch together almost every day, we ended up getting to know each other well, I knew about his girlfriends and he a little about me.",0,2,neutral,step 1: read the text carefully and identify
+64,"I started to take a ride with him at the end of the day, a fact that I thought it best to hide from my husband, he thinks I come back by bus, but buses are so crowded and take a long time.",-1,2,negative,"the response for this text should be ""neutral""."
+65,"One day, the traffic was horrible stopped by floods, and he suggested we stop in a small street to take a break, luckily the car has tinted windows giving more safety.",0,2,neutral,positive
+66,"He was talking facing me with his hand on the back of my bench and, strangely, I started to feel good being there with him.",1,3,positive,positive
+68,"I began to feel a strange, internal arousal, not exactly for him, but for the situation.",1,3,positive,positive
+69,"After all, for me, who had always lived the life of a faithful wife, everything was new, and new things always attract women.",0,2,neutral,step 1: read and understand the text provided
+70,"He lowered his hand to my neck, I felt his breath.",0,3,neutral,step 1: read the given text and identify
+71,"I shivered, he noticed and came closer and closer, he held my face, he brought his face closer until he touched his lips to mine.",0,2,neutral,positive
+72,I did not know what to do!,0,2,neutral,negative
+73,I was surprised and paralyzed!,0,2,neutral,step 1: read the given text carefully to
+74,I felt a shock and heat all over my body at this unusual situation.,0,2,neutral,step 1: read the text carefully to understand
+75,"Me, already breathing fast.",0,2,neutral,step 1: read the given text carefully to
+76,"We ended up kissing more and more, my arms hugging him.",1,2,positive,positive
+77,"I confess that it gave me an almost unknown pleasure, it was a delight to feel our tongues touching while he squeezed my breasts.",1,3,positive,positive
+78,"He insinuated that I could be pregnant, I said that, no way, because I was on contraceptives.",0,2,neutral,negative
+79,"I so wanted things to have been different, but unfortunately you changed the course of our lives forever.",-1,2,negative,step 1: read and understand the given text
+80,"You left nothing for my future, you forgot about me like I never existed.",-1,3,negative,step 1: read and understand the text
+81,"But that's ok, now I realized that I never needed you for anything because even when I missed you and I cried.",-1,2,negative,step 1: read the text carefully to understand
+82,"I started to not miss you anymore, I started to not cry for you anymore because my mother's love filled me and drowned all my pain.",-1,2,negative,step 1: read the text carefully and identify
+83,"We must never forget that we are the architects of our own destiny, each of us has our own free will to live our lives the way we want.",0,3,neutral,positive:
+84,"I hope you are very happy, that you have a peaceful old age, that you are healthy enough to take care of your children, they need you.",1,2,positive,positive
+85,I can't bear to hold this with me anymore.,-1,3,negative,step 1: read the given text and identify
+86,It is very sad to know that I have a sister who made me date a gay boy simply to stifle his romance with my 15-year-old nephew.,-1,3,negative,step 1: read and understand the text
